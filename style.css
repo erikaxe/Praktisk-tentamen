@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .list-group-item {
   display: flex;
 }
@@ -5,12 +9,13 @@
 .fa-trash-alt {
   color: red;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 .form-check-input {
   cursor: pointer;
+  border-radius: 1.25em !important;
 }
-/*  */
 
 .list-group-item {
   max-width: 35rem;
@@ -24,6 +29,7 @@
   width: 100%;
   display: flex;
 }
+
 h6 {
   margin-right: auto;
   margin-left: 1rem;
@@ -31,4 +37,5 @@ h6 {
 
 .button {
   border-radius: 0px 5px 5px 0px;
+  color: #5e5e5e;
 }
